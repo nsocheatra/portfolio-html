@@ -105,12 +105,13 @@ main.portfolio {
 }
 footer {
     width: 100%;
+left: 0;
+bottom:0;
+position: fixed;
     background-color: yellow;
-    justify-items: center;
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 1px 0;
-}
-.footer-text {
-    color: black;
+color: black;
 }
